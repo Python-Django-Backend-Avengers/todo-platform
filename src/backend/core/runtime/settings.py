@@ -12,7 +12,7 @@ class AppSettings(BaseSettings):
 
     DEBUG: bool = True
 
-    SECRET_KEY: str
+    SECRET_KEY: str = ""
 
     DJANGO_SETTINGS_MODULE: str = "config.settings.local"
 

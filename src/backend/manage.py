@@ -6,7 +6,7 @@ import sys
 from dotenv import load_dotenv
 
 
-def main():
+def main() -> None:
     """Run administrative tasks."""
 
     # Load environment variables
