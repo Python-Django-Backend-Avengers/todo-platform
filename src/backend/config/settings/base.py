@@ -42,6 +42,7 @@ INSTALLED_APPS: list[str] = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'apps.tasks.apps.TasksConfig'
 ]
 
 
