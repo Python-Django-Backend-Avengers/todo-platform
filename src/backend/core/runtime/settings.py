@@ -16,5 +16,12 @@ class AppSettings(BaseSettings):
 
     DJANGO_SETTINGS_MODULE: str = 'config.settings.local'
 
+    # Database settings
+    POSTGRES_DB: str
+    POSTGRES_USER: str
+    POSTGRES_PASSWORD: str
+    POSTGRES_HOST: str = 'localhost'
+    POSTGRES_PORT: int = 5432
+
 
 settings: AppSettings = AppSettings()
